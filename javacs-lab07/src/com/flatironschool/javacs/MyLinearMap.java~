@@ -142,14 +142,8 @@ public class MyLinearMap<K, V> implements Map<K, V> {
 
 	@Override
 	public V remove(Object key) {
-		for (int i = 0; i < entries.size(); i++) {
-			Entry pair = entries.get(i);
-			if (equals(pair.getKey(), key)) {
-				entries.remove(i);
-				return pair.getValue();
-			}
-		}
-		return null;
+        // TODO: fill this in.
+        return null;
 	}
 
 	@Override
